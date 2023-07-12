@@ -1,0 +1,115 @@
+body{
+    font-family:'Lobster Two', cursive;
+    font-weight: 200;
+    margin: 3rem;
+    padding: 2rem 10rem;
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+header{
+    font-size: 'Lobster Two', cursive;
+    color: aliceblue;
+    display:grid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+    display: flex;
+    font-size: 3.5rem;
+    margin-bottom: 0.1rem;
+}
+#description{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+form{
+    background:rgba(27, 27, 50, 0.8);
+    color: aliceblue;
+    display: grid,
+}
+#survey-form{
+    display:block;
+    justify-content: space-evenly;
+    margin: 0.3rem;
+}
+.formulario{
+    font-family: 'Lobster Two',sans-serif;
+    display: grid;
+    font-size: 1.5rem;
+    padding: 0.75rem 8rem 1rem 4rem;
+    justify-content: center;
+    border-color: black;
+    border-radius: 5%;
+}
+#name, #email, #number{
+    padding: 0.75rem 8rem;
+    border-radius: 15px;
+}
+#name-label,#email-label,#number-label{
+    text-align: center;
+}
+
+#dropdown{
+    display: grid;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 6rem;
+}
+.dropdown_option{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border-radius: 13px;
+    margin-right: 4rem;
+    font-family: 'Lobster Two',sans-serif;
+}.recomendaciones{
+    display:grid;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 3rem 0rem 2rem 5rem;
+}
+#grupo1{
+    display: flex;
+}
+.pregunta{
+    margin-top: 2rem;
+}
+.pregunta_option{
+    border-radius: 15px;
+    padding: 0.25em 7rem 0.25rem;
+    font-family: 'Lobster Two',sans-serif;
+}
+.cuestionario{
+    display:flex;
+    flex-direction: column;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+.cuestionario__titulo{
+    font-size: 1.7rem;
+    text-align: center;
+}
+#cuestionario__option{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.form__group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.form__group__titulo{
+    font-size: 1.6rem;
+}
+#submit{
+    background-color: rgba(27, 27, 50, 0.8);
+    display: grid;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-family:'Lobster Two',sans-serif;
+    justify-self: center;
+    color: aliceblue;
+}
